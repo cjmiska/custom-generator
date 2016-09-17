@@ -1,0 +1,21 @@
+{
+  "name": "<%= appNameSlug %>",
+  "description": "<%= appDescription %>",
+  "main": "_site/index.html",
+  "authors": [
+    "<%= appAuthor %>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.0",
+    "materialize": "~0.97.7"
+  }
+}
