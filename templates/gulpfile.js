@@ -1,8 +1,3 @@
-var install = require("gulp-install");
- 
-gulp.src(['./bower.json', './package.json'])
-  .pipe(install());
-
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const child = require('child_process');
